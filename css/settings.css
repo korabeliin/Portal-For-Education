@@ -1,0 +1,178 @@
+/* SETTINGS PAGE */
+
+.settings {
+  justify-content: flex-start;
+}
+
+.settings-container {
+  display: flex;
+  width: 80%;
+}
+
+.change-photo {
+  flex: 2;
+  background-color: #1E3351;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.photo-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 80px 80px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.photo-container::before {
+  content: '';
+  background: no-repeat center/cover url(/images/big-avatar.png);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.change-photo .photo-icon {
+  width: 27px;
+  height: 27px;
+  z-index: 2;
+  margin-bottom: 5px;
+}
+
+.change-photo span {
+  z-index: 2;
+  color: #fff;
+  font-size: 17px;
+  line-height: 18px;
+  width: 84px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.user-settings-page {
+  padding: 30px 60px 60px 60px;
+  flex: 2;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.user-settings-page h2 {
+  margin: 0;
+}
+
+.settings-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.settings-inputs input, .change-password-section input {
+  height: 45px;
+  background: #FFFFFF;
+  border: 2px solid #CBD3DE;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 15px rgba(210, 217, 226, 0.5);
+  color: rgba(4, 17, 34, 1);
+  font-size: 16px;
+  padding: 15px;
+  min-width: 250px;
+}
+
+.settings-inputs input:focus-visible, .change-password-section input:focus-visible {
+  outline: none;
+}
+
+.settings-inputs h2 {
+  flex: 2;
+  flex-basis: 100%;
+}
+
+.three-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.three-inputs div {
+  background: #FFFFFF;
+  border: 2px solid #CBD3DE;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 15px rgba(210, 217, 226, 0.5);
+  color: #041122;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.three-inputs p {
+  flex: 3;
+  flex-basis: 100%;
+}
+
+#one, #two, #three {
+  flex: 1;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 75px;
+}
+
+.three-inputs div img {
+  width: 13px;
+  height: 7px;
+}
+
+.settings-inputs p, .change-password-section p {
+  color: rgba(4, 17, 34, .5);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.settings-inputs h3 {
+  margin-bottom: 10px;
+}
+
+.change-password-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.change-password-section h3{
+  flex: 2;
+  flex-basis: 100%;
+}
+
+.change-password-section .pass-settings input {
+  background: no-repeat 95% url(/images/eye\ crossed.png);
+  background-color: #fff;
+}
+
+.change-password-section .repeat-pass input {
+  background: no-repeat 95% url(/images/show\ pass.png);
+  background-color: #fff;
+}
+
+.user-settings-page button {
+  background-color: #1389E6;
+  box-shadow: 0px 4px 30px rgba(16, 55, 110, 0.2);
+  width: 375px;
+  height: 60px;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 50px;
+  cursor: pointer;
+}

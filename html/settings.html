@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/settings.css">
+  <script src="/calculations.js" defer></script>
+  <title>Settings</title>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo-container">
+        <div class="logo-button">Логотип</div>
+        <div class="logo-title">
+          <p class="logo-title-text">Заголовок как на главной странице</p>
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="menu-button">Таблица тэгов</div>
+        <div class="menu-button">Видео</div>
+        <div class="menu-button">Аудио</div>
+        <div class="menu-button"><a href="/html/calculator.html">Калькулятор</a></div>
+      </div>
+    </div>
+  </header>
+  <main class="settings">
+    <div class="settings-container">
+      <div class="change-photo">
+        <div class="photo-container">
+          <img src="/images/photo icon.png" alt="photo icon" class="photo-icon">
+          <span>Изменить фото</span>
+        </div>
+      </div>
+
+      <div class="user-settings-page">
+        <div class="settings-inputs">
+          <h2>Настройки пользователя</h2>
+          <div class="name-settings block">
+            <p>Имя пользователя</p>
+            <input type="text">
+          </div>
+          <div class="three-inputs">
+            <p>Дата рождения</p>
+            <div type="text" id="one">12 <img src="/images/down arrow.png" alt="down arrow"> </div>
+            <div type="text" id="two">Янв <img src="/images/down arrow.png" alt="down arrow"></div>
+            <div type="text" id="three">1997 <img src="/images/down arrow.png" alt="down arrow"></div>
+          </div>
+          <div class="login-settings block">
+            <p>Логин</p>
+            <input type="text" required>
+          </div>
+          <div class="email-settings block">
+            <p>E-mail</p>
+            <input type="email" required>
+          </div>
+        </div>
+
+        <div class="change-password-section">
+          <h3>Смена пароля</h3>
+          <div class="pass-settings">
+            <p>Новый пароль</p>
+            <input type="password" required>
+          </div>
+          <div class="repeat-pass">
+            <p>Повторите пароль</p>
+            <input type="password" required>
+          </div>
+        </div>
+        <button class="save-changes-btn">Сохранить изменения</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <button class="footer-logo-btn">Логотип</button>
+        <p>&copy;2021</p>
+      </div>
+      <div class="footer-text-container">
+        <p class="footer-text">
+          Lorem ipsum dolor. sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+      <div class="footer-okey-btn-container">
+        <button class="okey-btn">Окей</button>
+        <a href="#">Лицензионное соглашение</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

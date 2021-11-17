@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/auth.css">
+  <script src="/calculations.js" defer></script>
+  <title>Authorization Page</title>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo-container">
+        <div class="logo-button">Логотип</div>
+        <div class="logo-title">
+          <p class="logo-title-text">Заголовок как на главной странице</p>
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="menu-button">Таблица тэгов</div>
+        <div class="menu-button">Видео</div>
+        <div class="menu-button">Аудио</div>
+        <div class="menu-button"><a href="/html/calculator.html">Калькулятор</a></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="auth-container">
+      <div class="chat-container">
+        <div class="posted-comments">
+          <div class="chat-container-user-and-date">
+            <div class="author-container">
+              <img src="/images/first comment user.png" alt="avatar">
+              <span class="author-name">Имя автора сообщения</span>
+            </div>
+            <div class="date-container">
+              <p class="date">15.08.21 15:48</p>
+            </div>
+          </div>
+          <div class="chat-container-message">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+              massa. Cum sociis
+              natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+              pellentesque
+              eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
+              arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo</p>
+          </div>
+
+          <div class="chat-container-user-and-date">
+            <div class="author-container">
+              <img src="/images/second comment user.png" alt="avatar">
+              <span class="author-name">Имя автора сообщения</span>
+            </div>
+            <div class="date-container">
+              <p class="date">06.12.21 9:55</p>
+            </div>
+          </div>
+          <div class="chat-container-message">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+
+          <div class="chat-container-user-and-date">
+            <div class="author-container">
+              <img src="/images/third comment user.png" alt="avatar">
+              <span class="author-name">Имя автора сообщения</span>
+            </div>
+            <div class="date-container"><p class="date">12.02.21 10:55</p></div>
+          </div>
+          <div class="chat-container-message">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          </div>
+
+          <div class="chat-container-user-and-date">
+            <div class="author-container">
+              <img src="/images/first comment user.png" alt="avatar">
+              <span class="author-name">Имя автора сообщения</span>
+            </div>
+            <div class="date-container">
+              <p class="date">15.08.21 15:48</p>
+            </div>
+          </div>
+          <div class="chat-container-message">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+              massa. Cum sociis
+              natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+              pellentesque
+              eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate
+              eget,
+              arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo</p>
+          </div>
+
+          <div class="chat-container-user-and-date">
+            <div class="author-container">
+              <img src="/images/second comment user.png" alt="avatar">
+              <span class="author-name">Имя автора сообщения</span>
+            </div>
+            <div class="date-container">
+              <p class="date">06.12.21 9:55</p>
+            </div>
+          </div>
+          <div class="chat-container-message">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+              sociis
+              natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+          
+          <div class="chat-container-user-and-date">
+            <div class="author-container">
+              <img src="/images/third comment user.png" alt="avatar">
+              <span class="author-name">Имя автора сообщения</span>
+            </div>
+            <div class="date-container">
+              <p class="date">12.02.21 10:55</p>
+            </div>
+          </div>
+          <div class="chat-container-message">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          </div>
+        </div>
+        <div class="new-comment">
+          <textarea class="comment-area" placeholder="Введите ваше сообщение"></textarea>
+          <div class="new-comment-anon-and-send">
+            <div class="send-anon">
+              <label class="label">
+                <input type="checkbox" class="checkbox">
+                <span class="fake-check"></span>
+                <span class="send-anon-message">Отправить сообщение анонимно</span>
+              </label>
+            </div>
+            <div class="send-btn">
+              <button>Отправить <img src="/images/plane.png" alt="plane" class="plane"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="user-container">
+          <div class="user-data">
+            <img src="/images/big-avatar.png" alt="big avatar">
+            <span>Имя пользователя</span>
+            <form action="" class="user-info">
+              <div class="input-container">
+                <div class="background-for-img"><img src="/images/birth date.png" id="birth-date-img" alt="birth date"></div>
+                <input type="text" id="birth-date" placeholder="день рождения">
+              </div>
+              <div class="input-container">
+                <div class="background-for-img"><img src="/images/user.png" id="user-login-img" alt="user image"></div>
+                <input type="text" id="user-login" placeholder="login">
+              </div>
+              <div class="input-container">
+                <div class="background-for-img"><img src="/images/mail.png" id="user-email-img" alt="email image"></div>
+                <input type="email" id="user-email" placeholder="email">
+              </div>
+            </form>
+          </div>
+          <div class="user-settings">
+            <button>Настройки <img src="/images/settings picture.png" alt="settings picture"></button>
+          </div>
+        </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <button class="footer-logo-btn">Логотип</button>
+        <p>&copy;2021</p>
+      </div>
+      <div class="footer-text-container">
+        <p class="footer-text">
+          Lorem ipsum dolor. sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+      <div class="footer-okey-btn-container">
+        <button class="okey-btn">Окей</button>
+        <a href="#">Лицензионное соглашение</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/calc.css">
+  <script src="/calculations.js" defer></script>
+  <title>Calculator</title>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo-container">
+        <div class="logo-button">Логотип</div>
+        <div class="logo-title">
+          <p class="logo-title-text">Заголовок как на главной странице</p>
+        </div>
+      </div>
+      <div class="menu-container">
+        <div class="menu-button">Таблица тэгов</div>
+        <div class="menu-button">Видео</div>
+        <div class="menu-button">Аудио</div>
+        <div class="menu-button"><a href="/html/calculator.html">Калькулятор</a></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="calc-container">
+      <div class="calc-title">Калькулятор</div>
+      <div class="calc-body">
+        <textarea id="numpad-textarea"></textarea>
+        <div class="numpad-container">
+          <div class="numpad-row">
+            <button onclick="sumNumbers()">+</button>
+            <button onclick="subNumbers()">-</button>
+            <button onclick="multNumbers()">*</button>
+            <button onclick="clearArea()">C</button>
+            <button onclick="factor()">!</button>
+          </div>
+          <div class="numpad-row">
+            <button class="number" onclick="enterNumber(7)">7</button>
+            <button class="number" onclick="enterNumber(8)">8</button>
+            <button class="number" onclick="enterNumber(9)">9</button>
+            <button onclick="divNumbers()">/</button>
+            <button onclick="logar()">ln n</button>
+          </div>
+          <div class="numpad-row">
+            <button class="number" onclick="enterNumber(4)">4</button>
+            <button class="number" onclick="enterNumber(5)">5</button>
+            <button class="number" onclick="enterNumber(6)">6</button>
+            <button onclick="mod()">%</button>
+            <button onclick="pow()">x*n</button>
+          </div>
+          <div class="numpad-row">
+            <button class="number" onclick="enterNumber(1)">1</button>
+            <button class="number" onclick="enterNumber(2)">2</button>
+            <button class="number" onclick="enterNumber(3)">3</button>
+            <button class="number" onclick="enterNumber(0)">0</button>
+            <button>=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <button class="footer-logo-btn">Логотип</button>
+        <p>&copy;2021</p>
+      </div>
+      <div class="footer-text-container">
+        <p class="footer-text">
+          Lorem ipsum dolor. sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis
+          natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+      <div class="footer-okey-btn-container">
+        <button class="okey-btn">Окей</button>
+        <a href="#">Лицензионное соглашение</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
